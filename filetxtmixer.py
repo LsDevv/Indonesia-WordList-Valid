@@ -1,7 +1,7 @@
 import os
 import re
 
-# Folder where your TXT files are stored (set to your directory)
+# ganti jalur file sesuai keinginan
 folder_path = "/storage/emulated/0/Pydroid3/"  # Change if needed
 
 # Get all TXT files in the folder
@@ -49,4 +49,4 @@ with open(output_file, "w", encoding="utf-8") as out:
     for word in sorted(unique_words):  # Sort for better readability
         out.write(word + "\n")
 
-print(f"Process completed. Merged file saved as: {output_file}")
+print(f"mantap selesai, coba cek file {output_file}")
